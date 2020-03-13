@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Rock Paper Scissors</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Rock Paper Scissors</h1>
+		</header>
+		<div id="scoreboard">
+			<div class="badge" id="user-label">user</div>
+			<div class="badge" id="comp-label">comp</div>
+			<span id="user-score">0</span>:<span id="comp-score">0</span>
+		</div>
+		<div id="result">
+			<p id="result_p">Let's play!</p>
+		</div>
+		<div id="buttons">
+			<div class="button" id="r">
+				<img src="./img/rock.png" height="150px" />
+			</div>
+			<div class="button" id="p">
+				<img src="./img/paper.png" height="150px" />
+			</div>
+			<div class="button" id="s">
+				<img src="./img/scissors.png" height="150px" />
+			</div>
+		</div>
+		<p id="ending-comment">Choices:</p>
+		<div class="choices">
+			<div class="badge2" id="userCh">User</div>
+			<div class="button2" id="userChoice">
+				<img src="./img/rock.png" height="100px" />
+			</div>
+			<div class="button2" id="compChoice">
+				<img src="./img/rock.png" height="100px" />
+			</div>
+			<div id="compCh" class="badge2">Comp</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
